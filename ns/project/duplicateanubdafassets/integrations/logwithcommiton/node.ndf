@@ -64,9 +64,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">anusha</value>
-    <value name="createdDate">1756035395781</value>
-    <value name="lastModifiedDate">1756035395781</value>
+    <value name="lastModifiedBy">anusha</value>
+    <value name="lastModifiedDate">1756035439460</value>
     <value name="displayName">logwithcommiton</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -83,6 +82,12 @@
           <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">false</value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
