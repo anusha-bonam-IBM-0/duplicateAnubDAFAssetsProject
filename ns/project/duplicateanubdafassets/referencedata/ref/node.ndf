@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">referenceData</value>
+  <value name="svc_subtype">default</value>
+  <value name="svc_sigtype">unknown</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_in" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="node_nsName">pub.referenceData.docTypes:matchCriteria</value>
+      <value name="node_pkg">WmPublic</value>
+      <value name="node_comment"></value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="wrapper_type">IData</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">matchCriteria</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">1</value>
+          <value name="wrapper_type">IData</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="is_soap_array_encoding_used">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_usereditable">false</value>
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">path</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <array name="field_options" type="value" depth="1">
+                <value>Carrier_Service_Combo</value>
+                <value>Service Code</value>
+              </array>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_usereditable">false</value>
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">compareValueAs</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <array name="field_options" type="value" depth="1">
+                <value>string</value>
+                <value>numeric</value>
+                <value>date</value>
+              </array>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_usereditable">true</value>
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">datePattern</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <array name="field_options" type="value" depth="1">
+              </array>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">joins</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">1</value>
+              <value name="wrapper_type">IData</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <value name="is_soap_array_encoding_used">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">false</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">operator</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <array name="field_options" type="value" depth="1">
+                    <value>equals</value>
+                    <value>doesNotEqual</value>
+                    <value>greaterThan</value>
+                    <value>greaterThanOrEqual</value>
+                    <value>lessThan</value>
+                    <value>lessThanOrEqual</value>
+                    <value>equalsIgnoreCase</value>
+                    <value>contains</value>
+                    <value>doesNotContain</value>
+                    <value>beginsWith</value>
+                    <value>doesNotBeginWith</value>
+                    <value>endsWith</value>
+                    <value>doesNotEndWith</value>
+                  </array>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">true</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">value</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <array name="field_options" type="value" depth="1">
+                  </array>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">false</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">joinType</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <array name="field_options" type="value" depth="1">
+                    <value>and</value>
+                    <value>or</value>
+                  </array>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="is_public">false</value>
+          <value name="field_name">ref</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">1</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="is_soap_array_encoding_used">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">Carrier_Service_Combo</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">Service Code</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+  </record>
+  <value name="stateless">yes</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <null name="auditfields_input"/>
+  <null name="auditfields_output"/>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+  <array name="allowedHTTPMethods" type="value" depth="1">
+    <value>TRACE</value>
+    <value>HEAD</value>
+    <value>DELETE</value>
+    <value>POST</value>
+    <value>GET</value>
+    <value>OPTIONS</value>
+    <value>PUT</value>
+    <value>PATCH</value>
+  </array>
+  <value name="pipeline_option">0</value>
+  <null name="originURI"/>
+  <value name="modifiable">true</value>
+  <value name="is_public">false</value>
+  <record name="$REFERENCE_DATA$" javaclass="com.wm.util.Values">
+    <value name="name">ref</value>
+    <value name="packageName">DuplicateAnubDAFAssetsProject</value>
+    <value name="descriptorName">project.duplicateanubdafassets.referencedata:ref</value>
+    <byte name="sourceBytes">
+IkNhcnJpZXJfU2VydmljZV9Db21ibyIsIlNlcnZpY2UgQ29kZSINCiJQcmlvcml0eUF1c3RyYWxpYUdsb2JhbCAtIEV4cHJlc3MgRG9jdW1lbnRzIiwiMTAwOjAwIg0KIlByaW9yaXR5QXVzdHJhbGlhR2xvYmFsIC0gRXhwcmVzcyBQYXJjZWxzIiwiMjowMCINCiJQcmlvcml0eUF1c3RyYWxpYUdsb2JhbCAtIEV4cHJlc3MgQWlyZnJlaWdodCAvIEdsb2JhbCBNYWlsIC0gU21hbGwiLCI2OjAwIg0KIlByaW9yaXR5QXVzdHJhbGlhUFJTIE92ZXJuaWdodCIsIjE2OjAyIg0KIlByaW9yaXR5QXVzdHJhbGlhUGFyY2VscyAtIFNhbWUgRGF5IiwiMjowMSINCiJQcmlvcml0eUF1c3RyYWxpYVBhcmNlbHMgLSBPdmVybmlnaHQiIiAgIiIyOjAyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhUGFyY2VscyAtIE9mZiBQZWFrIiwiMjowMyINCiJQcmlvcml0eUF1c3RyYWxpYVBhcmNlbHMgLSBTYXR1cmRheS9BZnRlciBIcnMiLCIyOjA3Ig0KIlByaW9yaXR5QXVzdHJhbGlhUGFyY2VscyAtIFN1bmRheS9QdWJsaWMgSG9sLiIsIjI6MDgiDQoiUHJpb3JpdHlBdXN0cmFsaWFEYW5nZXJvdXMgR29vZHMgLSBPdmVybmlnaHQiIiAgIiI4OjAyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhRGFuZ2Vyb3VzIEdvb2RzIC0gT2ZmIFBlYWsiLCI4OjAzIg0KIlByaW9yaXR5QXVzdHJhbGlhVGVjaFNlcnYgLSBPdmVybmlnaHQiLCI3MDowMjowMCINCiJQcmlvcml0eUF1c3RyYWxpYVRlY2hTZXJ2IC0gT2ZmUGVhayIsIjcwOjAzOjAwIg0KIlByaW9yaXR5QXVzdHJhbGlhQXVzd2lkZSAxa2cgU2F0Y2hlbCAtIE92ZXJuaWdodCIiICAiIjIwOjAyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhQXVzd2lkZSAza2cgU2F0Y2hlbCAtIE92ZXJuaWdodCIiICAiIjIxOjAyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhQXVzd2lkZSA1a2cgU2F0Y2hlbCAtIE92ZXJuaWdodCIiICAiIjIyOjAyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhQXVzd2lkZSAza2cgTGFiZWwgLSBPdmVybmlnaHQiLCIyNjowMjowMCINCiJQcmlvcml0eUF1c3RyYWxpYVNhbWUgRGF5IERpcmVjdCIiICAiIjI6MjAiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWEzcmQgUGFydHkgUmV0dXJuIC0gT2ZmUGVhayIsIjJBOjAyIg0KIlByaW9yaXR5QXVzdHJhbGlhM3JkIFBhcnR5IFJldHVybiAtIE92ZXJuaWdodCIsIjJBOjAzIg0KIlByaW9yaXR5QXVzdHJhbGlhUFUgUlROICYgUkVQQUlSIFNFUlZJQ0UiIiAgIiIyTTo0MyIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUxvY2FsIDVrZyBTYXRjaGVsIC0gT3Zlcm5pZ2h0IiwiMzc6MDI6MDAiDQoiUHJpb3JpdHlBdXN0cmFsaWFEWFMgUG9zdCBNZXRybyBQYXJjZWwiLCI1TDowNiINCiJQcmlvcml0eUF1c3RyYWxpYURYUyBQb3N0IENvdW50cnkgUGFyY2VsIiIgICIiNU06MDYiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFPcHRpY2FsIDUwMGdtIFNhdGMuIC0gT3Zlcm5pZ2h0IiIgICIiNjA6MDI6MDAiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFPcHRpY2FsIDNrZyBTYXRjaGVsIC0gT3Zlcm5pZ2h0IiIgICIiNjE6MDI6MDAiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFQUlMgT2ZmIFBlYWsiLCIxMTowMyINCiJQcmlvcml0eUF1c3RyYWxpYURhbmdlcm91cyBHb29kcyAtIFNhbWVkYXkiLCI4OjAxIg0KIlByaW9yaXR5QXVzdHJhbGlhRFhTIFBhbGxldHMgT2ZmcGVhayIiICAiIjQ6MDMiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFCaW8gU3ViIENBVEIgVU4zMzczLSBPdmVybmlnaHQiLCIxOTowMiINCiJQcmlvcml0eUF1c3RyYWxpYUJpbyBTdWIgQ0FUQiBVTjMzNzMtIEFmdGVyaG91cnMgU2F0IiIgICIiMTk6MDciLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFPVkVSTklHSFQgQ09OU1VNRVIgREVMSVZFUlkgTlNSIiIgICIiUEw6QkMiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWE1MDBHTSBTYXRjaGVsIC0gT3Zlcm5pZ2h0IiwiQUc6MDIiDQoiUHJpb3JpdHlBdXN0cmFsaWFHbG9iYWwgTWFpbCAtIExhcmdlIiIgICIiR006MDAiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFFQ09OT01ZIEVYUCBDT05TVU1FUiBETFZSWSBOU1IiLCJQTDpFRSINCiJQcmlvcml0eUF1c3RyYWxpYURYUyBQb3N0IExldHRlciBTbWwiIiAgIiIyQzowNiIsIiINCiJQcmlvcml0eUF1c3RyYWxpYURYUyBQb3N0IExldHRlciAxMjVnIiwiMkQ6MDYiDQoiUHJpb3JpdHlBdXN0cmFsaWFEWFMgUG9zdCBMZXR0ZXIgMjUwZyIsIjJFOjA2Ig0KIlByaW9yaXR5QXVzdHJhbGlhRFhTIFBvc3QgTGV0dGVyIDUwMGciLCIyRjowNiINCiJQcmlvcml0eUF1c3RyYWxpYURYUyBQYXJjZWxzIFNtbCIiICAiIjJHOjA2IiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhRFhTIFBvc3QgUGFyY2VsIiIgICIiMkg6MDYiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFEWFMgT3Zlcm5pZ2h0IFBhcmNlbHMiLCJaNjowNiINCiJQcmlvcml0eUF1c3RyYWxpYURYUyBPZmZwZWFrIFBhcmNlbHMiIiAgIiJaNzowNiIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUdsb2JhbCAtIEV4cHJlc3MgRW52ZWxvcGUiLCIxWjowMCINCiJQcmlvcml0eUF1c3RyYWxpYVNhbWUgRGF5IE1ldHJvIENvbGxlY3Rpb24iLCJQNzowMSINCiJQcmlvcml0eUF1c3RyYWxpYVNhbWUgRGF5IE1ldHJvIERlbGl2ZXJ5IiIgICIiUDg6MDEiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWE1MDBnIFZpc2EgU2F0Y2hlbCAtIE92ZXJuaWdodCIsIlBWOjAyIg0KIlByaW9yaXR5QXVzdHJhbGlhRFhTIERYIExldHRlciBTbWFsbCIiICAiIlJQOjA2IiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhRFhTIERYIExldHRlciAxMjVnIiwiUlE6MDYiDQoiUHJpb3JpdHlBdXN0cmFsaWFEWFMgRFggTGV0dGVyIDI1MGciLCJSUjowNiINCiJQcmlvcml0eUF1c3RyYWxpYURYUyBEWCBMZXR0ZXIgNTAwZyIsIlJTOjA2Ig0KIlByaW9yaXR5QXVzdHJhbGlhRFhTIERYIExnIEFydCA1MDBnIiwiUlQ6MDYiDQoiUHJpb3JpdHlBdXN0cmFsaWFEWFMgRFggTWV0cm8gUGFyY2VsIiIgICIiUlU6MDYiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFEWFMgRFggQ291bnRyeSBQYXJjZWwiLCJSVjowNiINCiJQcmlvcml0eUF1c3RyYWxpYUJpbyBTdWIgQ0FUQiBVTjMzNzMtIE9mZnBlYWsiLCIxOTowMyINCiJQcmlvcml0eUF1c3RyYWxpYU9WRVJOSUdIVCBDT05TVU1FUiBERUxJVkVSWSBTUiIsIjdZOkJDIg0KIlByaW9yaXR5QXVzdHJhbGlhRUNPTk9NWSBFWFAgQ09OU1VNRVIgRExWUlkgU1IiLCI3WTpFRSINCiJQcmlvcml0eUF1c3RyYWxpYUJpbyBTdWIgQ0FUQiBVTjMzNzMtIFNhbWVkYXkiLCIxOTowMSINCiJQcmlvcml0eUF1c3RyYWxpYUVjb25vbXkgRXhwcmVzcyBCMkIiIiAgIiJEVzpCRSIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUVjb25vbXkgUGFjaWZpYy1BaXJwb3J0IHRvIEFpcnBvcnQiLCJZQTowMCINCiJQcmlvcml0eUF1c3RyYWxpYUVjb25vbXkgUGFjaWZpYy1Eb29yIHRvIEFpcnBvcnQiIiAgIiJZQjowMCIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUVjb25vbXkgUGFjaWZpYy1Eb29yIHRvIERvb3IiLCJZQzowMCINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjEgUGFyY2VscyAtIE92ZXJuaWdodCBEYW5nZXJvdXMgR29vZHMiLCIwLjM5MDI3Nzc3OCINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjEgU2F0Y2hlbCAtIEF1c3dpZGUgMWtnIiwiMC44OTAyNzc3NzgiDQoiUHJpb3JpdHlBdXN0cmFsaWFUU0YxIFBhcmNlbHMgLSBPdmVybmlnaHQiLCIwLjE0MDI3Nzc3OCINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjEgU2F0Y2hlbCAtIEF1c3dpZGUgM2tnIiwiMC45MzE5NDQ0NDQiDQoiUHJpb3JpdHlBdXN0cmFsaWFUU0YxIFNhdGNoZWwgLSBBdXN3aWRlIDVrZyIsIjAuOTczNjExMTExIg0KIlByaW9yaXR5QXVzdHJhbGlhVFNGMSBQYXJjZWxzIC0gT3Zlcm5pZ2h0IEJpbyBTdWIgQ0FUQiBVTjMzNzMiLCIwLjg0ODYxMTExMSINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjIgUGFyY2VscyAtIE92ZXJuaWdodCIsIjAuMTQ3MjIyMjIyIg0KIlByaW9yaXR5QXVzdHJhbGlhVFNGMSBMYWJlbCAtIEF1c3dpZGUgM2tnIiwiMjY6ODIiDQoiUHJpb3JpdHlBdXN0cmFsaWFUU0YxIFNhdGNoZWwgLSA1a2cgTG9jYWwiLCIzNzo4MiINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjIgUGFyY2VscyAtIE92ZXJuaWdodCBCaW8gU3ViIENBVEIgVU4zMzczIiwiMC44NTU1NTU1NTYiDQoiUHJpb3JpdHlBdXN0cmFsaWFUU0YyIFBhcmNlbHMgLSBPdmVybmlnaHQgRGFuZ2Vyb3VzIEdvb2RzIiwiMC4zOTcyMjIyMjIiDQoiUHJpb3JpdHlBdXN0cmFsaWFUU0YyIFNhdGNoZWwgLSBBdXN3aWRlIDVrZyIsIjAuOTgwNTU1NTU2Ig0KIlByaW9yaXR5QXVzdHJhbGlhVFNGMiBTYXRjaGVsIC0gQXVzd2lkZSAxa2ciLCIwLjg5NzIyMjIyMiINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjIgTGFiZWwgLSBBdXN3aWRlIDNrZyIsIjI2OjkyIg0KIlByaW9yaXR5QXVzdHJhbGlhVFNGMiBTYXRjaGVsIC0gQXVzd2lkZSAza2ciLCIwLjkzODg4ODg4OSINCiJQcmlvcml0eUF1c3RyYWxpYVRTRjIgU2F0Y2hlbCAtIDVrZyBMb2NhbCIsIjM3OjkyIg0KIlByaW9yaXR5QXVzdHJhbGlhVGVjaFNlcnYgUHJlbWl1bSIsIjcwOjI1OjAwIg0KIlByaW9yaXR5QXVzdHJhbGlhUmVkZWxpdmVyeSBTcGVjaWFsIFByb2R1Y3QiLCI5OjEwIg0KIlByaW9yaXR5QXVzdHJhbGlhSDJIIE92ZXJuaWdodCBPZmZpY2UgdG8gT2ZmaWNlIiwiOU06MDIiDQoiUHJpb3JpdHlBdXN0cmFsaWFIMkggU2FtZWRheSIiICAiIjlMOjAxIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhSFJGIFBhcmNlbHMgLSBBZnRlciBocnMgJiBTYXQiLCIwLjEyNSINCiJQcmlvcml0eUF1c3RyYWxpYUhSRiBTYXRjaGVsIC0gQXVzd2lkZSAxa2ciLCIwLjg3NjM4ODg4OSINCiJQcmlvcml0eUF1c3RyYWxpYUhSRiBQYXJjZWxzIC0gT3Zlcm5pZ2h0IEJpbyBTdWIgQ0FUQiBVTjMzNzMiIiAgIiIwLjgzNDcyMjIyMiIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUhSRiBQYXJjZWxzIC0gT2ZmcGVhayBEYW5nZXJvdXMgR29vZHMiLCIwLjM3NTY5NDQ0NCINCiJQcmlvcml0eUF1c3RyYWxpYUhSRiBQYXJjZWxzIC0gT3Zlcm5pZ2h0IERhbmdlcm91cyBHb29kcyIiICAiIjAuMzc2Mzg4ODg5IiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhSFJGIFNhdGNoZWwgLSBBdXN3aWRlIDNrZyIsIjAuOTE4MDU1NTU2Ig0KIlByaW9yaXR5QXVzdHJhbGlhSFJGIFNhdGNoZWwgLSBBdXN3aWRlIDVrZyIsIjAuOTU5NzIyMjIyIg0KIlByaW9yaXR5QXVzdHJhbGlhSFJGIFBhcmNlbHMgLSBPZmZwZWFrIiwiMC4xMjU2OTQ0NDQiDQoiUHJpb3JpdHlBdXN0cmFsaWFIUkYgUGFyY2VscyAtIE9mZnBlYWsgQmlvIFN1YiBDQVRCIFVOMzM3MyIsIjAuODM0MDI3Nzc4Ig0KIlByaW9yaXR5QXVzdHJhbGlhUGFyY2VsIFNlbGVjdCBBRFAgT3Zlcm5pZ2h0IiIgICIiUE06QkMiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFCMkMgUGFyY2VsIE92ZXJuaWdodCIsIkFFOkJDIg0KIlByaW9yaXR5QXVzdHJhbGlhQjJDIFBhcmNlbCBFY29ub215IEV4cHJlc3MiLCJBRTpFRSINCiJQcmlvcml0eUF1c3RyYWxpYUIyQyA1MDBnIE92ZXJuaWdodCIsIkFEOkJDIg0KIlByaW9yaXR5QXVzdHJhbGlhQjJDIDUwMGcgRWNvbm9teSBFeHByZXNzIiwiQUQ6RUUiDQoiUHJpb3JpdHlBdXN0cmFsaWFIUkYgTGFiZWwgLSBBdXN3aWRlIDNrZyIiICAiIjI2OjYyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhSFJGIFNhdGNoZWwgLSA1a2cgTG9jYWwiIiAgIiIzNzo2MiIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUhSRiBQYXJjZWxzIC0gU2FtZSBEYXkiLCIwLjEyNzA4MzMzMyINCiJQcmlvcml0eUF1c3RyYWxpYUhSRiBQYXJjZWxzIC0gU2FtZWRheSBCaW8gU3ViIENBVEIgVU4zMzczIiwiMC44MzU0MTY2NjciDQoiUHJpb3JpdHlBdXN0cmFsaWFIUkYgUGFyY2VscyAtIEFmdGVyIGhycyAmIFNhdCBCaW8gU3ViIENBVEIgVU4zMzczIiwiMC44MzMzMzMzMzMiDQoiUHJpb3JpdHlBdXN0cmFsaWFIUkYgUGFyY2VscyAtIFNhbWVkYXkgRGFuZ2Vyb3VzIEdvb2RzIiwiMC4zNzcwODMzMzMiDQoiUHJpb3JpdHlBdXN0cmFsaWFIUkYgUGFyY2VscyAtIFNhbWUgRGF5IERpcmVjdCIsIjAuMTI3Nzc3Nzc4Ig0KIlByaW9yaXR5QXVzdHJhbGlhSFJGIFBhcmNlbHMgLSBTdW5kYXkvUHVibGljIEhvbGlkYXkiIiAgIiIwLjEyODQ3MjIyMiIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUhNRiBQYXJjZWxzIC0gT2ZmcGVhayIsIjAuMTMyNjM4ODg5Ig0KIlByaW9yaXR5QXVzdHJhbGlhSE1GIFBhcmNlbHMgLSBBZnRlciBocnMgJiBTYXQiLCIwLjEzMTk0NDQ0NCINCiJQcmlvcml0eUF1c3RyYWxpYUhNRiBTYXRjaGVsIC0gQXVzd2lkZSAza2ciLCIwLjkyNSINCiJQcmlvcml0eUF1c3RyYWxpYUhNRiBQYXJjZWxzIC0gT3Zlcm5pZ2h0IiIgICIiMC4xMzMzMzMzMzMiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFITUYgUGFyY2VscyAtIERhbmdlcm91cyBHb29kcyIsIjAuMzgyNjM4ODg5Ig0KIlByaW9yaXR5QXVzdHJhbGlhSE1GIFBhcmNlbHMgLSBPdmVybmlnaHQgRGFuZ2Vyb3VzIEdvb2RzIiIgICIiMC4zODMzMzMzMzMiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFITUYgU2F0Y2hlbCAtIEF1c3dpZGUgNWtnIiwiMC45NjY2NjY2NjciDQoiUHJpb3JpdHlBdXN0cmFsaWFITUYgU2F0Y2hlbCAtIDVrZyBMb2NhbCIiICAiIjM3OjcyIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhSE1GIFBhcmNlbHMgLSBPZmZwZWFrIEJpbyBTdWIgQ0FUQiBVTjMzNzMiLCIwLjg0MDk3MjIyMiINCiJQcmlvcml0eUF1c3RyYWxpYUhNRiBTYXRjaGVsIC0gQXVzd2lkZSAxa2ciLCIwLjg4MzMzMzMzMyINCiJQcmlvcml0eUF1c3RyYWxpYUhNRiBMYWJlbCAtIEF1c3dpZGUgM2tnIiIgICIiMjY6NzIiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFITUYgUGFyY2VscyAtIEFmdGVyIGhycyAmIFNhdCBCaW8gU3ViIENBVEIgVU4zMzczIiwiMC44NDAyNzc3NzgiDQoiUHJpb3JpdHlBdXN0cmFsaWFITUYgUGFyY2VscyAtIE92ZXJuaWdodCBCaW8gU3ViIENBVEIgVU4zMzczIiIgICIiMC44NDE2NjY2NjciLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFITUYgUGFyY2VscyAtIFNhbWVkYXkgQmlvIFN1YiBDQVRCIFVOMzM3MyIsIjAuODQyMzYxMTExIg0KIlByaW9yaXR5QXVzdHJhbGlhSE1GIFBhcmNlbHMgLSBTYW1lIERheSIsIjAuMTM0MDI3Nzc4Ig0KIlByaW9yaXR5QXVzdHJhbGlhSE1GIFBhcmNlbHMgLSBTYW1lIERheSBEaXJlY3QiLCIwLjEzNDcyMjIyMiINCiJQcmlvcml0eUF1c3RyYWxpYVBhcmNlbCBTZWxlY3QgQURQIEVjb25vbXkgRXhwcmVzcyIsIlBNOkVFIg0KIlByaW9yaXR5QXVzdHJhbGlhSE1GIFBhcmNlbHMgLSBTdW5kYXkvUHVibGljIEhvbGlkYXkiIiAgIiIwLjEzNTQxNjY2NyIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUhNRiBQYXJjZWxzIC0gU2FtZWRheSBEYW5nZXJvdXMgR29vZHMiLCIwLjM4NDAyNzc3OCINCiJQcmlvcml0eUF1c3RyYWxpYURvbWVzdGljIE1haWwgTG9kZ2VtZW50IiIgICIiUEM6MDYiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFJTSBMZXR0ZXIgU21hbGwiIiAgIiJSSTowNiIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUlNIExldHRlciAxMjVnIiwiUko6MDYiDQoiUHJpb3JpdHlBdXN0cmFsaWFJTSBMZXR0ZXIgMjUwZyIsIlJLOjA2Ig0KIlByaW9yaXR5QXVzdHJhbGlhSU0gTGV0dGVyIDUwMGciLCJSTDowNiINCiJQcmlvcml0eUF1c3RyYWxpYUlNIExnIEFydCA1MDBnIiwiUk06MDYiDQoiUHJpb3JpdHlBdXN0cmFsaWFIUkYgUGFyY2VscyAtIE92ZXJuaWdodCIiICAiIjAuMTI2Mzg4ODg5IiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhVGVjaCBTZXJ2aWNlcyBTYW1lZGF5IiwiNzA6MDE6MDAiDQoiUHJpb3JpdHlBdXN0cmFsaWFFY29ub215IEJyZWFrIEJ1bGsgSEFXQiIiICAiIko5OjAwIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhRXhwcmVzcyBCcmVhayBCdWxrIE1BV0IiIiAgIiJLMTowMCIsIiINCiJQcmlvcml0eUF1c3RyYWxpYUVjb25vbXkgQnJlYWsgQnVsayBNQVdCIiIgICIiSzI6MDAiLCIiDQoiUHJpb3JpdHlBdXN0cmFsaWFFeHByZXNzIEJyZWFrIEJ1bGsgSEFXQiIiICAiIkszOjAwIiwiIg0KIlByaW9yaXR5QXVzdHJhbGlhRXhwb3J0cyBDYXJnbyIsIjM6MDAiDQoiUHJpb3JpdHlOZXdaZWFsYW5kR2xvYmFsIC0gRXhwcmVzcyBEb2N1bWVudHMiIiAgIiIxOjAwIiwiIg0KIlByaW9yaXR5TmV3WmVhbGFuZFBhcmNlbHMgLSBTYW1lIERheSIiICAiIjI6MDEiLCIiDQoiUHJpb3JpdHlOZXdaZWFsYW5kUGFyY2VscyAtIE92ZXJuaWdodCIsIjI6MDIiDQoiUHJpb3JpdHlOZXdaZWFsYW5kUGFyY2VscyAtIE9mZiBQZWFrIiIgICIiMjowMyIsIiINCiJQcmlvcml0eU5ld1plYWxhbmRQYXJjZWxzIC0gU2F0dXJkYXkvQWZ0ZXIgSHJzIiwiMjowNyINCiJQcmlvcml0eU5ld1plYWxhbmRQYXJjZWxzIC0gU3VuZGF5L1B1YmxpYyBIb2wuIiwiMjowOCINCiJQcmlvcml0eU5ld1plYWxhbmRHbG9iYWwgLSBFeHByZXNzIFBhcmNlbHMiLCIyOjAwIg0KIlByaW9yaXR5TmV3WmVhbGFuZFJldHVybnMgUHJpb3JpdHkiLCIyQTowMiINCiJQcmlvcml0eU5ld1plYWxhbmRSZXR1cm5zIE9mZnBlYWsiLCIyQTowMyINCiJQcmlvcml0eU5ld1plYWxhbmRHbG9iYWwgLSBFeHByZXNzIEVudmVsb3BlIiwiMVo6MDAiDQoiUHJpb3JpdHlOZXdaZWFsYW5kR2xvYmFsIC0gRXhwcmVzcyBBaXJmcmVpZ2h0IiwiMzowMCINCiJQcmlvcml0eU5ld1plYWxhbmRFY29ub215IFBhY2lmaWMtQWlycG9ydCB0byBBaXJwb3J0IiIgICIiWUE6MDAiLCIiDQoiUHJpb3JpdHlOZXdaZWFsYW5kRWNvbm9teSBQYWNpZmljLURvb3IgdG8gRG9vciIsIllDOjAwIg0KIlByaW9yaXR5TmV3WmVhbGFuZEVjb25vbXkgUGFjaWZpYy1Eb29yIHRvIEFpcnBvcnQiLCJZQjowMCINCiJQcmlvcml0eU5ld1plYWxhbmRHbG9iYWwgTWFpbCIsIjY6MDAiDQoiQ291cmllckRpc3RyaWJ1dGlvbiIsIkRJUyINCiJJUEVDUm9hZCBFeHByZXNzIiIgICIiWCIsIiINCiJJUEVDUHJpb3JpdHkiIiAgIiJIIiwiIg0KIklQRUNUcmFucyBUYXNtYW4iIiAgIiJJIiwiIg0KIklQRUNEaXJlY3QiLCJWIg0KIklQRUNMb2NhbCIsIkwiDQoiSVBFQ0Zhc2hpb24iLCJGIg0KIklQRUNBdXN3aWRlIDNrZyBTYXRjaGVsIiwiVCINCiJJUEVDQXVzd2lkZSA1a2cgU2F0Y2hlbCIsIlUiDQoiSVBFQ1NlbnNpdGl2ZSIsIjciDQoiQ29udHJhY3RMb2dpc3RpY3NFeHByZXNzIExvY2FsIiwiRUxPQyINCiJDb250cmFjdExvZ2lzdGljc0dlbmVyYWwgTG9jYWwiLCJHTE9DIg0KIkNvbnRyYWN0TG9naXN0aWNzRXhwcmVzcyBMaW5laGF1bCIsIkVMSU5FIg0KIkNvbnRyYWN0TG9naXN0aWNzR2VuZXJhbCBMaW5laGF1bCIsIkdMSU5FIg0KIkNvbnRyYWN0TG9naXN0aWNzRGVsaXZlcnkiLCJERUxWIg0KIkNvbnRyYWN0TG9naXN0aWNzREcgRGVsaXZlcnkiIiAgIiJEREVMViIsIiINCiJDb250cmFjdExvZ2lzdGljc1JhaWwiLCJSQUlMIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc0dlbmVyYWwiIiAgIiJHIiwiIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc0V4cHJlc3MiIiAgIiJFIiwiIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc0hvdHNob3QiIiAgIiJIIiwiIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc0NvdXJpZXIiIiAgIiJLIiwiIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc092ZXJuaWdodCIsIk8iDQoiRW5lcmd5TWFyaW5lTG9naXN0aWNzU2FtZSBEYXkiLCJUIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc0RHIEZyZWlnaHQiLCJEIg0KIkVuZXJneU1hcmluZUxvZ2lzdGljc0RlZGljYXRlZCIsIkkiDQoiRW5lcmd5TWFyaW5lTG9naXN0aWNzREcgQ291cmllciIsIkoiDQoiRW5lcmd5TWFyaW5lTG9naXN0aWNzREcgT3Zlcm5pZ2h0IiwiTiINCiJFbmVyZ3lNYXJpbmVMb2dpc3RpY3NERyBTYW1lIERheSIiICAiIlUiLCIiDQoiRW5lcmd5TWFyaW5lTG9naXN0aWNzREcgRXhwcmVzcyIsIlgiDQoiRW5lcmd5TWFyaW5lTG9naXN0aWNzREcgUHJlbWl1bSIsIlkiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkR2VuZXJhbCIiICAiIkciLCIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkRXhwcmVzcyIiICAiIkUiLCIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkUHJlbWl1bSIiICAiIk0iLCIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkRm9vZCBEcnkiLCJGIg0KIkludGVybW9kYWxTcGVjaWFsaXNlZERhbmdlcm91cyBHb29kcyIiICAiIkQiLCIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkRnJvemVuIiwiWiINCiJJbnRlcm1vZGFsU3BlY2lhbGlzZWRUaGlyZCBQYXJ0eSIiICAiIlQiLCIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkUmVmcmlnZXJhdGlvbiIsIlIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkQWlyIEZyZWlnaHQiIiAgIiJBIiwiIg0KIkludGVybW9kYWxTcGVjaWFsaXNlZERhbmdlcm91cyBHb29kcyBFeHByZXNzIiIgICIiWCIsIiINCiJJbnRlcm1vZGFsU3BlY2lhbGlzZWRERyBSZWZyaWdlcmF0ZWQiIiAgIiJTIiwiIg0KIkludGVybW9kYWxTcGVjaWFsaXNlZFJhaWwgR2VuZXJhbCIsIlEiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkUmFpbCBEYW5nZXJvdXMgR29vZHMiLCJWIg0KIkludGVybW9kYWxTcGVjaWFsaXNlZEZDTCIiICAiIkoiLCIiDQoiSW50ZXJtb2RhbFNwZWNpYWxpc2VkREcgRkNMIiwiWSINCiJNaW5pbmdTZXJ2aWNlc0dlbmVyYWwiLCJHIg0KIk1pbmluZ1NlcnZpY2VzRXhwcmVzcyIsIkUiDQoiTWluaW5nU2VydmljZXNERyBGcmVpZ2h0IiIgICIiRCIsIiINCiJNaW5pbmdTZXJ2aWNlc1JlZnJpZ2VyYXRpb24iLCJSIg0KIk1pbmluZ1NlcnZpY2VzUHJlbWl1bSIsIk0iDQoiTWluaW5nU2VydmljZXNERyBQcmVtaXVtIiwiWSINCiJUYXNtYW5pYUdlbmVyYWwiLCJHIg0KIlRhc21hbmlhRXhwcmVzcyIsIkUiDQoiVGFzbWFuaWFERyBGcmVpZ2h0IiwiRCINCiJUYXNtYW5pYVJlZnJpZ2VyYXRpb24iLCJSIg0K    </byte>
+    <null name="description"/>
+    <value name="columnDelimiter">,</value>
+    <value name="releaseCharacter">"</value>
+    <array name="columnNames" type="value" depth="1">
+      <value>Carrier_Service_Combo</value>
+      <value>Service Code</value>
+    </array>
+    <value name="encodingType">IBM437</value>
+  </record>
+</Values>
