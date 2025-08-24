@@ -64,32 +64,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">anusha</value>
-    <value name="createdDate">1756034973905</value>
-    <value name="lastModifiedDate">1756034973905</value>
+    <value name="lastModifiedBy">anusha</value>
+    <value name="lastModifiedDate">1756035765734</value>
     <value name="displayName">nocommit</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Reference Data</value>
-          <value name="groupName">referenceData</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">refdnocommit</value>
-          <value name="serviceName">project.duplicateanubdafassets.referencedata:refdnocommit</value>
-          <double name="rank" type="Double">0.4</double>
-        </record>
-        <null name="outputMapSet"/>
-        <null name="mapSet"/>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">2</number>
@@ -106,8 +86,9 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">1</value>
       </record>
-      <null name="/1/0"/>
+      <null name="/0/0"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
