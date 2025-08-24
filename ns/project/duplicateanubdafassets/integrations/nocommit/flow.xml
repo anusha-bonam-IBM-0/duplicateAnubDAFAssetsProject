@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Reference Data" SERVICE="project.duplicateanubdafassets.referencedata:refdnocommit">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<MAP NAME="TRANSFORM" TIMEOUT="" MODE="STANDALONE">
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="true" FIELD="/ddnc;4;0;project.duplicateanubdafassets.documenttypes:nocommitdoctype/docrefnc;4;0;project.duplicateanubdafassets.documenttypes:docrefParent/docrefP;4;0;project.duplicateanubdafassets.documenttypes:dcrefest/docreforders;4;0;project.duplicateanubdafassets.documenttypes:doc_Orders/shiporder;2;0/shipto;2;0/country;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">%noautocommit%</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+</FLOW>
